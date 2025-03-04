@@ -1,0 +1,19 @@
+{
+  "name": "poker-tdd-ts",
+  "version": "1.0.0",
+  "description": "Mini Poker Game developed using TDD with TypeScript",
+  "main": "dist/poker.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -r ts-node/register 'tests/**/*.ts'",
+    "start": "ts-node src/playPoker.ts",
+    "play": "npm run build && node dist/playPoker.js"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.3.1",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
