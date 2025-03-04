@@ -52,26 +52,3 @@ or
 ```bash
 npm run play
 ```
-
-## Project Structure
-
-- `src/poker.ts` - Core poker classes and functions
-- `src/playPoker.ts` - Command-line interface to play the game
-- `tests/poker.test.ts` - Test cases for the poker functionality
-- `tsconfig.json` - TypeScript configuration
-- `package.json` - Project dependencies and scripts
-
-## Game Rules
-
-The game evaluates 5-card poker hands according to standard rules:
-
-1. Royal Flush
-2. Straight Flush
-3. Four of a Kind
-4. Full House
-5. Flush
-6. Straight
-7. Three of a Kind
-8. Two Pair
-9. Pair
-10. High Card
